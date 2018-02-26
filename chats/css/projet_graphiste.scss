@@ -1,0 +1,57 @@
+header{
+  background-color: lightblue;
+//  border: 2px solid black;
+
+  line-height: 40px;
+  text-align: center;
+}
+.logo{
+  width: 5%;
+	height: auto;
+}
+.images_texte{
+	height: 120px;
+	width: 120px;
+
+}
+.gris_fonce{
+	background-color: #555252;
+	min-height: 50px;
+
+}
+.right{
+	position:relative;
+	left:50%;
+}
+.titre{
+	font-size: 18px;
+	font-weight: bold;
+	padding-top: 15px;
+
+}
+.texte1{
+    font-size:13px;
+
+}
+.espacehaut{
+	padding-top: 20px;
+	padding-bottom: 20px
+}
+.imagesinfini{
+  height: 4000 px;
+  width: 4000 px;
+	padding-top:20px;
+}
+.gris{
+	background-color: #E1E1E1;
+}
+.blanc{
+	color: white;
+
+
+}
+.footer{
+	padding-top: 8px;
+	padding-bottom: 8px;
+	margin-left: 4%
+}

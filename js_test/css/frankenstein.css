@@ -1,0 +1,21 @@
+#Frankenstein{
+	font-size: 10px;
+
+}
+#Frankenstein:hover {
+  cursor: pointer;
+}
+
+button{
+	background-color: red;
+	color:white;
+}
+
+button:hover {
+  cursor: pointer;
+}
+body{
+	text-align: center;
+	background-color: black;
+	color: white;
+}

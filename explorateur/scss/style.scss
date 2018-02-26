@@ -1,0 +1,106 @@
+//sass --watch style.scss:../style.css   commande terminal//
+$div1gauche: orange;
+$div1droite: yellow;
+$div2gauche: lightblue;
+$div2droite: blue;
+$div3gauche: black;
+$div3droite: red;
+$bordure: black;
+$textediv3: white;
+$taillegrand: 30px;
+$taillepetit: 15px;
+$tailleimagesgrand: 50px;
+$radius: 10px;
+$tailleimagespetit: 20px;
+$centre:center;
+$div0: red;
+
+
+
+
+
+
+.div1{
+    background-image:url(../img/bob.jpg);
+    background-size: cover;
+
+    font-size: $taillepetit;
+    border-style: solid;
+    border-color: $bordure;
+    border-bottom-left-radius: $radius;
+
+
+
+}
+
+@media (min-width: 700px) {
+   .div1{
+      font-size: $taillegrand;
+   }
+}
+
+.div2{
+  background-image:url(../img/dory.jpg);
+  background-size: cover;
+  border-style: solid;
+  border-color: $bordure;
+  border-bottom-right-radius: $radius;
+
+  font-size: $taillepetit;
+}
+
+@media (min-width: 700px) {
+   .div2{
+      font-size: $taillegrand;
+   }
+}
+
+.linkdossier:hover{
+  cursor: pointer;
+  letter-spacing: 3px;
+  font-weight: bold;
+  background-color: rgba(0,0,0,0.5)
+}
+
+.div3{
+  background-color: $div0;
+  border-right-style: solid;
+  border-left-style: solid;
+  border-color: $bordure;
+  color: $textediv3;
+  text-align: $centre;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.div0, .div00 {
+   background-color: $div0;
+   border-right-style: solid;
+   border-left-style: solid;
+   border-color: $bordure;
+   color: $textediv3;
+   text-align: $centre;
+}
+
+.div00{
+   border-top-style: solid;
+}
+
+.butback{
+   background-color: white;
+   border-radius: 2px;
+   width: 100px;
+   height: 40px;
+}
+
+.images{
+  height: $tailleimagespetit;
+  width: $tailleimagespetit;
+}
+
+@media (min-width: 700px) {
+   .images{
+      height: $tailleimagesgrand;
+      width: $tailleimagesgrand;
+   }
+}

@@ -1,0 +1,182 @@
+#animationArea {
+  width: 400px;
+  height: 300px;
+  overflow: hidden;
+  border: 1px solid #000;
+  position: relative;
+}
+
+.pbox {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  background-color: #FF0000;
+  border-radius: 25px;
+}
+
+#player1{
+    background-image: url(../img/usa.jpg);
+    fill: blue;
+    stroke-width: 3;
+    stroke: black;
+}
+
+#player2{
+    background-image: url(../img/kp_v.jpg);
+    fill: red;
+    stroke-width: 3;
+    stroke: black;
+}
+
+#field{
+    background-color: black;
+    border: 3px solid white;
+
+}
+
+#ball{
+    background-image: url(../img/images.jpg);
+    fill: yellow;
+    stroke-width: 3;
+    stroke: black;
+    border-radius: 20px;
+}
+.grandeBordure
+{
+  border: 5px dashed white;
+  background-color: black;
+}
+
+#playerName1
+{
+  border: 3px solid blue;
+  border-radius: 7px;
+  background-color: black;
+  color: white;
+}
+
+#playerscore1
+{
+  border: 3px solid #a0a0a0;
+  border-radius: 7px;
+  background-color: black;
+  color: white;
+}
+
+#playerName2
+{
+  border: 3px solid red;
+  border-radius: 7px;
+  background-color: black;
+  color: white;
+}
+
+#playerscore2
+{
+  border: 3px solid #a0a0a0;
+  border-radius: 7px;
+  background-color: black;
+  color: white;
+}
+
+.joueur1{
+	text-align: center;
+	font-size: 75px;
+	color: blue;
+}
+.joueur2{
+	text-align: center;
+	font-size: 75px;
+	color: red;
+}
+
+	
+
+body{
+	background-color: black;
+	color: white;
+}
+.play,
+.play hover{
+	height: 60px;
+	width: 200px;
+	font-size: 40px;
+    display: block;
+    margin : auto;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.espace{
+	margin-left: 2px;
+}
+.return,
+.return hover{
+	height: 40px;
+	width: 180px;
+	font-size: 30px;
+	margin-top:5%;
+	text-decoration: none;
+	cursor: pointer;
+	border-radius: 10px;
+}
+#inputj1{
+	font-size: 30px;
+	height: 40px;
+	width: 500px;
+	display: block;
+    margin : auto;
+    border-radius: 10px;
+}
+#inputj2{
+	font-size: 30px;
+	height: 40px;
+	width: 500px;
+	display: block;
+    margin : auto;
+    border-radius: 10px;
+
+}
+#textej2{
+	text-align: center;
+}
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 10px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: black;
+    margin: auto;
+    padding: 10px;
+    border: 2px solid white;
+    width: 90%;
+
+}
+
+/* The Close Button */
+.close {
+    color: red;
+    float: right;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    
+    text-decoration: none;
+    cursor: pointer;
+}

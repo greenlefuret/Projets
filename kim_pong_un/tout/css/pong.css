@@ -1,0 +1,25 @@
+#player1{
+    background-image: url(../img/usa.jpg);
+    fill: blue;
+    stroke-width: 3;
+    stroke: black;
+}
+
+#player2{
+    background-image: url(../img/kp_v.jpg);
+    fill: red;
+    stroke-width: 3;
+    stroke: black;
+}
+
+#field{
+    background-color: black;
+}
+
+#ball{
+    background-image: url(../img/images.jpg);
+    fill: yellow;
+    stroke-width: 3;
+    stroke: black;
+    border-radius: 20px;
+}

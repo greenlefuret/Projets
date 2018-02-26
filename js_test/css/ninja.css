@@ -1,0 +1,15 @@
+#ninja{
+	display: block;
+}
+body{
+	color: white;
+	background-color: black;
+	text-align: center;
+	font-size: 50px;
+}
+body:hover{
+	cursor: pointer;
+}
+.espace{
+	margin-top: 20px;
+}

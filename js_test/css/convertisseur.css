@@ -1,0 +1,30 @@
+#resultat{
+	height: 80px;
+	width: 500px;
+}
+body{
+     background-color: black;
+      color: white;
+			text-align: center;
+}
+#mithril{
+    background-color: white;
+    color: black;
+
+}
+#platine{
+    background-color: grey;
+}
+#or{
+	background-color: yellow;
+	color: black;
+}
+#argent{
+	background-color: #8e8a8a;
+}
+#cuivre{
+	background-color: red;
+}
+.button{
+	margin-top: 10px;
+}

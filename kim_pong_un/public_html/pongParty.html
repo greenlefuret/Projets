@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+	<html>
+	    <head>
+	        <title>Pong party</title>
+         	<meta charset="utf-8">
+	        <link rel="stylesheet" href="../css/pong.css">
+	        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css">
+	    </head>
+	    <body onclick="ballMouvement()">
+			<div class="container">
+					<div class="container">
+							<div class="col-12 row text-center grandeBordure">				
+								<span class="col-4 bordure">PLAYER 1</span>				
+								<span class="col-2 bordure">00</span>				
+								<span class="col-2 bordure">00</span>				
+								<span class="col-4 bordure">PLAYER 2</span>				
+							</div>				
+						</div>
+			<!-- <canvas id="field" width="1000" height="500" style="border: 1px solid grey" class="mt-2">
+				
+				</canvas>-->
+
+
+				<div id="field" class="container">
+					<div class="border_right">
+						<span id="player1"></span>
+					</div>					
+						<span id="player2"></span>					
+					<div id="ball"></div>
+				</div>
+			</div>
+	       <!--<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js"></script>-->
+                <script src="../js/pong.js"></script>
+	    </body>
+	</html>
